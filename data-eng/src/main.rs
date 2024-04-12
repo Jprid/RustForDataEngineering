@@ -1,21 +1,17 @@
-#[derive(Debug)]
-struct Fighter {
-    name: String,
+
+fn string_tests() {
+    let a = "string a";
+    let i = a.chars().nth(0);
+    let last = a.chars().last();
+    println!("0: {i:?}");
+    println!("last: {last:?}");
 }
 
-impl Fighter {
-    fn new(name: &str) -> Self {
-        Self {
-            name: name.to_string()
-        }
-    }
-}
 
+fn exec() {
+    string_tests()
+}
 
 fn main() {
-    let mut fighters = vec![
-        Fighter::new("Dustin Poirier")
-    ];
-    
-    println!("{:?}", fighters)
+    exec()
 }

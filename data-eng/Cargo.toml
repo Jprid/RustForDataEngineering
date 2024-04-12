@@ -1,4 +1,3 @@
-workspace = { members = ["data-eng"] }
 [package]
 name = "data-eng"
 version = "0.1.0"

@@ -14,7 +14,8 @@ impl Fighter {
 
 fn main() {
     let mut fighters = vec![
-        Figther::new("Dustin Poirier")
-    ]
+        Fighter::new("Dustin Poirier")
+    ];
+    
     println!("{:?}", fighters)
 }
